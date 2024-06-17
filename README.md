@@ -35,17 +35,17 @@ java TypingSpeedTest
 
 ## Usage
 1. Begin the test:
-Click the "Start" button to begin the test. A random prompt will appear at the top of the window.
+- Click the "Start" button to begin the test. A random prompt will appear at the top of the window.
 
 2. Type the prompt:
-Type the displayed prompt in the text field below it. Press Enter to submit your input and receive the next prompt.
+- Type the displayed prompt in the text field below it. Press Enter to submit your input and receive the next prompt.
 
 3. Track your performance:
 - The timer at the bottom left will count down from 60 seconds.
 - The WPM (words per minute) and accuracy will be displayed after the time runs out.
 
 4. Restart the test:
-Click the "Start" button again to restart the test.
+- Click the "Start" button again to restart the test.
 
 ## Customization
 ### Changing Prompts
@@ -66,7 +66,6 @@ Font font = new Font("Verdana", Font.PLAIN, 18);
 
 ### Adjusting Component Sizes
 To adjust the sizes of specific components, modify the preferred sizes in the constructor:
-To change the font for all components, modify the font size in the TypingSpeedTest constructor:
 ```
 setSize(500, 300); // Window
 promptLabel.setPreferredSize(new Dimension(480, 60)); // Prompt label
