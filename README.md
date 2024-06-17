@@ -59,7 +59,7 @@ private String[] prompts = {
 ```
 
 ### Adjusting Font
-To change the font for all components, modify the font size in the TypingSpeedTest constructor:
+To change the font for all components, modify it in the TypingSpeedTest constructor:
 ```
 Font font = new Font("Verdana", Font.PLAIN, 18);
 ```
