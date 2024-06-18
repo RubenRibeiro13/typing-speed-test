@@ -13,39 +13,39 @@ A Java-based Typing Speed Test application that measures typing speed and accura
 - Swing library (included in JDK).
 
 ## Installation
-1. Navigate to the project directory:
+1. **Navigate to the project directory:**
 ```
 cd typing-speed-test
 ```
 
-2. Clone the repository:
+2. **Clone the repository:**
 ```
 git clone https://github.com/yourusername/typing-speed-test.git
 ```
 
-3. Compile the Java source file:
+3. **Compile the Java source file:**
 ```
 javac TypingSpeedTest.java
 ```
 
-4. Run the application:
+4. **Run the application:**
 ```
 java TypingSpeedTest
 ```
 
 ## Usage
-1. Begin the test:
-- Click the "Start" button to begin the test. A random prompt will appear at the top of the window.
+1. **Begin the test:**
+Click the "Start" button to begin the test. A random prompt will appear at the top of the window.
 
-2. Type the prompt:
-- Type the displayed prompt in the text field below it. Press Enter to submit your input and receive the next prompt.
+2. **Type the prompt:**
+Type the displayed prompt in the text field below it. Press Enter to submit your input and receive the next prompt.
 
-3. Track your performance:
+3. **Track your performance:**
 - The timer at the bottom left will count down from 60 seconds.
 - The WPM (words per minute) and accuracy will be displayed after the time runs out.
 
-4. Restart the test:
-- Click the "Start" button again to restart the test.
+4. **Restart the test:**
+Click the "Start" button again to restart the test.
 
 ## Customization
 ### Changing Prompts
